@@ -1,0 +1,23 @@
+#main{
+    box-shadow: 0 20px 25px -5px #16a34a, 0 8px 10px -6px #16a34a;
+}
+.scroll{
+    overflow: auto;
+ }
+::-webkit-scrollbar:horizontal{
+    width: 5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+   background:linear-gradient(#22c1c3,#fdbb2d);
+   height: 10px;
+   width: 5px;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 5px;
+    display: block;
+}
+
