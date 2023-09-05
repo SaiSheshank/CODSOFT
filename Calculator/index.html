@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#020f4d] flex flex-col justify-center items-center min-h-screen">
+    <h1 class="text-white mb-5 text-xl font-bold">CALCULATOR</h1>
+    <main class="bg-indigo-950 flex flex-col h-fit w-fit rounded-lg shadow-xl shadow-black">
+        <div class="h-[5rem] w-[22rem] bg-[#020f4d] text-white flex justify-end items-end pr-10 rounded-lg">
+            <p id="dailog-box" class="text-white text-3xl"></p>
+        </div>
+        <div class="flex justify-around gap-3 gap-y-2.5 bg-[#020f4d] p-5 rounded-lg">
+            <ul id="list">
+                <li  id="operations" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-red-700">C</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">7</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">4</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">1</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">00</li>
+            </ul>
+            <ul id="list">
+                <li  id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">%</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">8</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">5</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">2</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">0</li>
+            </ul>
+            <ul id="list">
+                <li id="operations" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-red-700">DEL</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">9</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">6</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">3</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">.</li>
+            </ul>
+            <ul id="list">
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">/</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">*</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">-</li>
+                <li id="numbers" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-pink-500">+</li>
+                <li id="operations" class="text-xl h-[3rem] w-[3rem] rounded-lg bg-[#020f4d] text-white flex justify-center items-center mb-2 hover:shadow-xl hover:shadow-black hover:rounded-[50%] hover:bg-green-500">=</li>
+            </ul>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
