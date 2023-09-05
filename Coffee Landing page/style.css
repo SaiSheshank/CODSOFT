@@ -1,0 +1,426 @@
+body{
+    overflow-x: hidden;
+}
+.image{
+    position: absolute;
+    filter: brightness(0.5);
+}
+#header{
+    position: relative;
+}
+#header .navbar-brand{
+    color: white;
+    font-family: 'Xanh Mono', monospace;
+    font-weight: bold;
+
+}
+#header .navbar-brand:hover{
+    color: #e88905;
+}
+#header .navbar-toggler-icon{
+    background-color: white;
+}
+#header .nav-link{
+    color: white;
+    margin-right: 25px;
+}
+#header .nav-link:hover{
+    color:#e88905;
+    margin-right: 25px;
+}
+
+/*=============================Title====================================*/
+#title .con1{
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 45rem;
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+#title .heading{
+    color: white;
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+}
+#title p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#title .btns1{
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    box-shadow: 0px 0px 0px 0.5px white;
+    background-color: black;
+    height: 4rem;
+    width: 10rem;
+    margin-top: 1rem;
+}
+#title .btns1:hover{
+    background-color: #e88905;
+
+}
+/*============================COFFEE CUP===========================*/
+#coffeecup .con2{
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 10rem;
+    align-items: center;
+}
+#coffeecup .image2{
+    height: 15rem;
+    width: 20rem;
+}
+#coffeecup .coffeecuphead{
+    color: black;
+    padding-top: 7rem;
+    font-family: 'Dancing Script', cursive;
+}
+#coffeecup .subpassage{
+    margin: 1rem 5rem 7rem 5rem;
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+/*==================SERVICES=======================*/
+#services{
+    background-color: #F0E2CE;
+}
+#services .con3{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#services .servicespara{
+    padding-top: 4rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#services .serviceshead{
+    font-weight: lighter;
+    font-family: 'Dancing Script', cursive;
+}
+#services .servicessubtext{
+    color: black;
+    font-size: medium;
+    margin: 1rem 2rem 3rem 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#services .card{
+    background-color: #F0E2CE;
+    border: 0;
+    text-align: left;
+    padding-bottom: 10rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+#services .card-body{
+    padding-left: 0;
+}
+#services .imgss{
+    height: 25rem;
+}
+#services .card-text{
+    color: black;
+    font-weight: normal;
+    font-size: medium;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#services .link{
+    color: black;
+}
+#services .link:hover{
+    color: #e88905;
+}
+/*===============================WORKER=======================*/
+#worker .images2{
+    filter: brightness(0.2);
+    position: absolute;
+}
+#worker .con4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+#worker .Heading{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: lighter;
+    margin-top: 3rem;
+
+}
+#worker .Stexts{
+    font-weight: lighter;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: medium;
+}
+#worker .bannerbutton{
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 0px 0.5px white;
+    border-color: white;
+    border-width: 1px;
+
+}
+#worker .bannerbutton:hover{
+    background-color: #e88905;
+}
+
+/*========================ABOUT US==========================*/
+#aboutus .con5{
+    margin-top: 10rem;
+}
+#aboutus .aboutusimage{
+    float: left;
+}
+#aboutus .paragraph{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    margin-top: 2.5rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+/*====================STORE=============*/
+#store{
+    background-color: #F0E2CE;
+}
+#store .con6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+#store .row{
+    margin-right: 3rem;
+    margin-left: 0rem;
+}
+#store .title{
+    font-weight: lighter;
+    margin-top: 8rem;
+    font-family: 'Dancing Script', cursive;
+}
+#store .subtexts{
+    text-align: center;
+    margin: 2rem 10rem 5rem 10rem;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+#store .card{
+    background-color: #F0E2CE;
+    border: 0;
+}
+#store .card-body{
+    text-align: center;
+}
+#store .card-title{
+    font-weight: normal;
+}
+#store .card-text{
+    font-weight: medium;
+}
+/*=================GALLERY========================*/
+#gallery .con7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gallery .head{
+    font-weight: normal;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+#gallery .subtext{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#gallery .columns{
+    margin-bottom: 3rem;
+}
+/*================NEWS LETTER=================*/
+#newsletter .con8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+#newsletter h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+#newsletter .card{
+    border: 0;
+}
+#newsletter .link{
+    color: black;
+}
+#newsletter .link:hover{
+    color: #e88905;
+}
+/*=============FOOTER======================*/
+#footer{
+    background-color: black;
+}
+#footer .con9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer h1{
+    font-weight: normal;
+    margin-top: 5rem;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+#footer .box4{
+    display: flex;
+
+}
+#footer input{
+    border-radius:0.5rem;
+    width: 35rem;
+    height: 2.5rem;
+    border: 1px 1px 1px 1px black;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    
+}
+#footer button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    background-color: #ed9715;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+#footer .box5{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+}
+#footer .innerbox{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: lighter;
+}
+#footer h5{
+    margin-bottom: 2rem;
+}
+#footer i{
+    margin-right: 1rem;
+}
+#footer .final{
+    font-weight: lighter;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+/*==============MEDIA QUERIES========================*/
+@media (min-width:1440px) {
+
+    #title .con1{
+        position: relative;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50rem;
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    
+}
+@media (max-width: 1024px) {
+
+    #title .con1{
+        position: relative;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 30rem;
+        margin-bottom: 0;
+        padding-bottom:0;
+    }
+    #title .heading{
+        color: white;
+        font-size: 6rem;
+        font-family: 'Dancing Script', cursive;
+        font-weight: normal;
+    }
+    #title p{
+        color: white;
+        font-size: 1.3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    #services .servicessubtext{
+        color: black;
+        font-size: medium;
+        margin: 1rem 1rem 3rem 1rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #footer .box4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #footer .box5{
+        display: flex;
+        flex-direction: row;
+        column-gap: 7rem;
+    }
+    #worker .Heading{
+        color: white;
+        font-weight: lighter;
+        margin-top: 2rem;
+    
+    }
+    #worker .Stexts{
+        font-weight: lighter;
+        margin-top: 1rem;
+        text-align: center;
+        font-size: small;
+    }
+    #worker .bannerbutton{
+        width: 10rem;
+        height: 3rem;
+        background-color: black;
+        color: white;
+        font-size: medium;
+
+    
+    }
+    
+    
+}
